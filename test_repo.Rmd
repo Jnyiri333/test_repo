@@ -11,6 +11,8 @@ library(tidyverse)
 
 ```
 ```{r}
-ggplot(data=mpg, aes(x=class, y = cty))+geom_jitter()
+ggplot(data=mpg, aes(x=class, y = cty))+
+  geom_jitter()+
+  labs(Title="A title!")
 ```
 
